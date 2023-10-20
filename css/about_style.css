@@ -1,0 +1,157 @@
+body{
+    background-image: url(../img/hojas.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_two{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 800px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    height: 30px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+.header_two ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 1px;
+}
+.header_two ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+@font-face {
+    font-family: Cyberpunk;
+    src: url('../fonts/Cyberpunk.otf');
+}
+
+
+/*Contenido*/
+
+.content_one{
+    margin: 400px;
+    margin-bottom: 0px;
+    padding: 33px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    height: 550px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    color: rgb(201, 201, 201);
+}
+.content_one div{
+    padding-top: 5px;
+}
+.imgs{
+    margin: 0px;
+    padding: 0px;
+    height: 210px;
+    margin-top: 50px;
+}
+.imgs_2{
+    margin: 0px;
+}
+center{
+    margin: 0px;
+    padding: 0px;
+}
+center h3{
+    margin: 0px;
+    padding: 0px;
+}
+.contenido_imgs{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*FOOTER*/
+.footer{
+    margin: 0px;
+    color: white;
+    margin-top: 73px;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    height: 200px;
+}
+/*Acerca De y Boton*/
+.p1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.p1 ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+.boton{
+    margin: auto;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    background-image: url(../img/limones.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    color: black;
+    border: 0px;
+    transition: transform .2s; 
+}
+.p1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/*Contacto imagenes*/
+.contacto{
+    margin: 0px;
+}
+.contacto img{
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

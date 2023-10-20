@@ -1,0 +1,143 @@
+body{
+    background-image: url(../img/Azul-verde.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_two{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 800px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    height: 30px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+.header_two ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 1px;
+}
+.header_two ul li a{
+    color: black;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+@font-face {
+    font-family: Cyberpunk;
+    src: url('../fonts/Cyberpunk.otf');
+}
+.tittle_bar{
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*Contenido*/
+
+.content_one{
+    margin: 150px;
+    margin-bottom: 0px;
+    padding: 33px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+    height: 500px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+}
+.content_one div{
+    padding-top: 19px;
+}
+.content_one img{
+    border-radius: 16px;
+    width: 100%;
+}
+/*FOOTER*/
+.footer{
+    margin: 0px;
+    color: white;
+    margin-top: 54px;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    height: 200px;
+}
+/*Acerca De y Boton*/
+.p1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.p1 ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+.boton{
+    margin: auto;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    background-image: url(../img/1f0a8a5a0955e8e2c2af4c365d4ea506f97113e0.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    color: black;
+    border: 0px;
+    transition: transform .2s; 
+}
+.p1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/*Contacto imagenes*/
+.contacto{
+    margin: 0px;
+}
+.contacto img{
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

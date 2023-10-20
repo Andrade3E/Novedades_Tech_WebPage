@@ -1,0 +1,260 @@
+body{
+    background-image: url(../img/largo_morado.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_two{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 800px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    height: 30px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+.header_two ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 1px;
+}
+.header_two ul li a{
+    color: black;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    margin-left: 0px;
+    text-align: center;
+}
+@font-face {
+    font-family: Cyberpunk;
+    src: url('../fonts/Cyberpunk.otf');
+}
+.tittle_bar{
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*Contenido*/
+
+.content_one{
+    margin: 150px;
+    margin-bottom: 0px;
+    padding: 33px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+    height: 1400px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+}
+.celular_raiz{
+    padding: 0px;
+    margin: 0px;
+}
+.celular{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.celular img{
+    transition: transform 1s;
+}
+.celular img:hover{
+
+}
+.funciones_uno{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 45px;
+}
+.funciones_uno img{
+    transition: transform 0.2s; 
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+}
+.funciones_uno img:hover{
+    transform: scale(1.05); 
+}
+.funciones_uno_img{
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+
+}
+.funciones_uno_img center img{
+    width: 200px;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 16px;
+}
+
+.funciones_uno_dos center img{
+    border-radius: 16px;
+    margin: 20px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.funciones_uno_tres{
+    padding-top: 20px;
+}
+.funciones_uno_tres center img{
+    width: 200px;
+    border-radius: 16px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Segunda Parte*/
+.funciones{
+    margin-top: 25px;
+}
+.p1_img{
+    margin: 0px;
+    padding: 0px;
+}
+.p1_img img{
+    border-radius: 16px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    transition: transform 0.2s; 
+}
+.p1_img img:hover{
+    transform: scale(1.05); 
+}
+
+.p1_img2{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+}
+.p1_img2 img{
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    transition: transform 0.2s; 
+}
+.p1_img2 img:hover{
+    transform: scale(1.05); 
+}
+.p1_img3{
+    margin: 0px;
+    padding: 0px;
+}
+.p1_img3 img{
+    width: 250px;
+    border-radius: 16px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 5px black;
+    border: 0px;
+    transition: transform 0.2s; 
+}
+.p1_img3 img:hover{
+    transform: scale(1.05); 
+}
+.funciones_tercera img{
+    transition: transform 1s;
+}
+.funciones_tercera img:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+/*FOOTER*/
+.footer{
+    margin: 0px;
+    color: white;
+    margin-top: 54px;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    height: 200px;
+}
+/*Acerca De y Boton*/
+.p1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.p1 ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+.boton{
+    margin: auto;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    background-image: url(../img/7fe4afa03570c6bf4e574545678c3cf38e717209.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    color: black;
+    border: 0px;
+    transition: transform .2s; 
+}
+.p1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/*Contacto imagenes*/
+.contacto{
+    margin: 0px;
+}
+.contacto img{
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
